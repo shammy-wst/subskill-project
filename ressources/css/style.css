@@ -395,6 +395,11 @@ header div {
     #burger-toggle:checked ~ #menu {
         left: 0;
     }
+
+    .banner__inner__right section {
+        display: none;
+        visibility: hidden;
+    }
 }
 /*MQ Mobile*/
 @media (max-width: 480px) {
@@ -433,6 +438,11 @@ header div {
     #burger-toggle:checked ~ #menu {
         left: 0;
     }
+
+    .banner__inner__right section {
+        display: none;
+        visibility: hidden;
+    }
 }
 
 /*MQ Desktop*/
@@ -450,6 +460,11 @@ header div {
 
     #burger-toggle:checked ~ #menu {
         left: 0;
+    }
+
+    .banner__inner__right section {
+        display: none;
+        visibility: hidden;
     }
 }
 
@@ -485,7 +500,7 @@ header div {
     flex-direction: row; /* direction du content*/
     justify-content: space-between;
     /* Responsive */
-    width: 75%;
+    max-width: 1080px;
 }
 
 .banner__inner__left {
