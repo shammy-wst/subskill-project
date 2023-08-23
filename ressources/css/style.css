@@ -15,7 +15,6 @@ header {
     height: 130px;
     max-width: 80vw;
     margin: 0;
-    font-size: 14px;
     border-radius: 0 0 30px 30px;
     justify-content: space-evenly;
 
@@ -75,7 +74,6 @@ header nav ul li a {
     flex-direction: row;
     list-style: none;
     margin: auto;
-    font-size: 14px;
     text-decoration: none;
     color : #302E44;
     padding: 0 0 0 15px;
@@ -103,7 +101,6 @@ figure {
     display: block;
     margin: 0;
     padding: 0;
-    max-width: 100%;
     height: auto;
     visibility: visible;
 }
@@ -133,8 +130,15 @@ figure img {
     padding : 0;
     margin: 0;
     text-align: center;
+    cursor: pointer;
 }
 
+
+
+.login:hover {
+    color : #00EA99;
+    text-decoration: underline;
+}
 
 /* Button header */
 header div {
@@ -165,7 +169,6 @@ header div {
     flex-direction: row;
     background-color: #FFFFFF;
     text-decoration: none;
-    font-size: 14px;
     font-weight: 600;
     max-width: 100%;
     cursor: pointer;
@@ -193,7 +196,6 @@ header div {
     justify-content: center;
     align-items: center;
     text-decoration: none;;
-    font-size: 14px;
     font-weight: 600;
     max-width: 100%;
     cursor: pointer;
@@ -205,7 +207,6 @@ header div {
     justify-content: center;
     align-items: center;
     text-decoration: none;;
-    font-size: 14px;
     font-weight: 600;
     max-width: 100%;
     cursor: pointer;
@@ -216,6 +217,139 @@ header div {
     color : #FFFFFF;
     transition: 0.2s;
 }
+/*Burger menu*/
+#burger-icon {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.burger__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#burger-toggle {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px auto;
+    transition: 0.4s;
+}
+
+#burger-toggle:checked + #burger-icon .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+#burger-toggle:checked + #burger-icon .bar:nth-child(2) {
+    opacity: 0;
+}
+
+#burger-toggle:checked + #burger-icon .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/*Inside menu*/
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: #333;
+    transition: 0.4s;
+    width: 10px;
+    top : 0;
+    margin: 0;
+    visibility: hidden;
+}
+
+#burger-toggle:checked ~ #menu {
+    left: 0;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    padding: 15px;
+}
+
+#menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #00EA99;
+}
+
+.menu-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.btn__mobile{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.md__btn__1{
+    display: flex;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    border : #302E44 1px solid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: #2F2E41;
+    text-decoration: none;
+    font-weight: 600;
+    max-width: 100%;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.md__btn__2{
+    display: flex;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    border : #302E44 1px solid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: #2F2E41;
+    text-decoration: none;
+    font-weight: 600;
+    max-width: 100%;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -224,8 +358,42 @@ header div {
     body {
         font-size: 0.875rem;
     }
-    header {
-        
+
+    .left__group {
+        display: none;
+        visibility: hidden;
+    }
+
+    .right__group {
+        display: none;
+        visibility: hidden;
+    }
+
+    figure {
+        display: flex;
+        margin: auto;
+        padding: 0;
+        width: 70%;
+        height: 70%;
+    }
+
+    #burger-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: auto;
+    }
+
+    #menu {
+        display: flex;
+        width: 100%;
+        left: -100%;
+        visibility: visible;
+    }
+
+    #burger-toggle:checked ~ #menu {
+        left: 0;
     }
 }
 /*MQ Mobile*/
@@ -233,10 +401,67 @@ header div {
     body {
         font-size: 0.75rem;
     }
+
+    figure {
+        display: flex;
+        margin: auto;
+        padding: 0;
+        width: 70%;
+        height: 70%;
+    }
+
+    .left__group {
+        display: none;
+        visibility: hidden;
+    }
+
+    .right__group {
+        display: none;
+        visibility: hidden;
+    }
+    #burger-icon {
+        display: block;
+    }
+
+    #menu {
+        width: 100%;
+        left: -100%;
+        display: block;
+        visibility: visible;
+    }
+
+    #burger-toggle:checked ~ #menu {
+        left: 0;
+    }
 }
 
+/*MQ Desktop*/
+@media (max-width: 1700px) {
+    #burger-icon {
+        display: block;
+    }
+
+    #menu {
+        width: 100%;
+        left: -100%;
+        display: flex;
+        visibility: visible;
+    }
+
+    #burger-toggle:checked ~ #menu {
+        left: 0;
+    }
+}
+
+
 /*MQ Widescreens*/
-@media (max-width: 1280px) {
+@media (max-width: 1700px) {
+
+    .left__group {
+        display: none;
+        visibility: hidden;
+    }
+
 
 }
 

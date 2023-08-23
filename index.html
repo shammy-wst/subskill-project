@@ -12,6 +12,32 @@
 <body>
 <div class="wrapper" style="max-width: 80vw; margin: 0 auto;">
     <header>
+        <div class="burger__menu">
+                <input type="checkbox" id="burger-toggle">
+                    <label for="burger-toggle" id="burger-icon">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </label>
+            <nav id="menu">
+                <div class="menu-content">
+                    <ul>
+                        <li><a href="#">Solutions</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Entreprise</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="btn__mobile">
+                    <button class="md__btn__1">
+                        <a>Essai gratuit</a>
+                    </button>
+                    <button class="md__btn__2">
+                        <a>Demander une demo</a>
+                    </button>
+                </div>
+            </nav>
+        </div>
 <div class="left__group">
     <div class="text__left">
         <a>Faire mon diagnostic RGPD</a>
@@ -43,14 +69,14 @@
     </nav>
 </div>
         <div class="middle__group">
-            <figure>
+            <figure class="logo">
                 <img src="ressources/images/logo_big.png" alt="logo">
             </figure>
         </div>
 <div class="right__group">
     <div class="right__text">
-        <a>Contactez-nous 02 55 99 32 91</a>
-        <a>Se connecter</a>
+        <a class="number">Contactez-nous 02 55 99 32 91</a>
+        <a class="login">Se connecter</a>
     </div>
     <div class="buttons">
         <button class="btn__1">
@@ -68,4 +94,7 @@
     </main>
 </div>
 </body>
+
+<script src="ressources/js/script.js"></script>
+
 </html>
