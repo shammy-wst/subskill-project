@@ -1,9 +1,25 @@
 
 html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #302E44;
     font-family: 'Montserrat', sans-serif;
 }
 
 body {
     font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    margin-bottom:20px ;
 }
