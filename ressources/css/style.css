@@ -12,14 +12,14 @@ body {
 header {
     display: flex;
     background-color : #FFFFFF;
-    height: 130px;
-    max-width: 80vw;
-    margin: 0;
-    border-radius: 0 0 30px 30px;
+    align-items: center;
     justify-content: space-evenly;
-
+    width: 80vw;
+    height: 95px;
+    margin: 0 auto;
+    border-radius: 0 0 30px 30px;
+    padding: 20px;
 }
-
 
 /* LEFT GROUP */
 
@@ -221,16 +221,14 @@ header div {
 #burger-icon {
     display: none;
     cursor: pointer;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .burger__menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+    position: fixed;
+    left: 305px;
+    top: 40px;
 }
 
 #burger-toggle {
@@ -369,14 +367,6 @@ header div {
         visibility: hidden;
     }
 
-    figure {
-        display: flex;
-        margin: auto;
-        padding: 0;
-        width: 70%;
-        height: 70%;
-    }
-
     #burger-icon {
         display: flex;
         align-items: center;
@@ -485,19 +475,11 @@ header div {
 }
 
 
-main {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 0;
-}
-
 .banner {
     /* Centrer */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Background vert */
-    max-width:1080px;
     height: auto;
     margin: 0 auto;
     margin-top: 95px;
@@ -509,7 +491,7 @@ main {
     flex-direction: row; /* direction du content*/
     justify-content: space-between;
     /* Responsive */
-    max-width: 1080px;
+    max-width: 63.5vw;
 }
 
 .banner__inner__left {
@@ -527,6 +509,12 @@ main {
     padding: 0;
 }
 
+.banner__inner__left h3{
+    font-weight: 500;
+    margin: 0;
+    padding-top: 15px;
+}
+
 .banner__inner__left div{
     display: flex;
     flex-direction: row;
@@ -539,12 +527,32 @@ main {
     background: #00EA99;
     border: none;
     border-radius: 5px;
-    padding: 20px;
     font-size: 1rem;
     font-weight: 600;
     color: #FFFFFF;
     cursor: pointer;
 }
+
+
+.btn__bi__right{
+    display: flex;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.btn__bi__right svg{
+    display: flex;
+    margin: auto;
+}
+
 
 .banner__inner__right {
     display: flex;
