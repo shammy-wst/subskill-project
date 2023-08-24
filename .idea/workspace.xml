@@ -6,12 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7fabc243-5f8d-42ac-8c7b-f12b32e6cf92" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/banner.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ressources/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ressources/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/media-queries.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/separator.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/separator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +112,7 @@
       <workItem from="1692850718969" duration="1463000" />
       <workItem from="1692883713639" duration="4141000" />
       <workItem from="1692894437634" duration="4005000" />
-      <workItem from="1692898671030" duration="2571000" />
+      <workItem from="1692898671030" duration="3542000" />
     </task>
     <servers />
   </component>
