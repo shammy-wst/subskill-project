@@ -557,17 +557,84 @@ header div {
 .banner__inner__right {
     display: flex;
     justify-content: flex-end; /* content aligné sur la fin droite de son parent*/
-    width: 50%;
     margin: 0;
     padding: 0;
 }
 
 .banner__inner__right section img{
-    width: 519px;
-    height: 417px;
+    width: 120%;
+}
+
+main {
+
 }
 
 .separator__1{
     border-top: 2px solid #ffffff; /* Vous pouvez personnaliser l'épaisseur, la couleur et le style de la ligne */
     width: 100%; /* Pour que la ligne s'étende sur toute la largeur */
+    margin-bottom: 50px;
+}
+
+article {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.under__banner{
+    display: flex;
+    align-items: center;
+    height: 95px;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+}
+
+.under__banner__content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    width: 80vw;
+}
+
+.under__banner__content ul{
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.under__banner__content ul li{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.under__banner__content ul li h1{
+    margin: 0 0 5px 0;
+}
+
+.under__banner__content ul li h2{
+     margin: 0;
+ }
+
+.under__banner__content button{
+    display: flex;
+    border: none;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #00EA99;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+    white-space: nowrap;
+    height: 50px;
 }
