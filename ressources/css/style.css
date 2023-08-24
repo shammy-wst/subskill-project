@@ -310,7 +310,7 @@ header div {
 
 .btn__mobile{
     display: flex;
-    margin: 0px;
+    margin: 0;
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -462,10 +462,7 @@ header div {
         left: 0;
     }
 
-    .banner__inner__right section {
-        display: none;
-        visibility: hidden;
-    }
+
 }
 
 
@@ -480,6 +477,19 @@ header div {
 
 }
 
+@media (max-width: 1280px) {
+    .banner__inner__right section {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
 
 .banner {
     /* Centrer */
@@ -487,11 +497,10 @@ header div {
     justify-content: center;
     align-items: center;
     /* Background vert */
-    width: 100%;
+    max-width:1080px;
     height: auto;
-    background-color: var(--color-dark-green);
-    margin-top: 100px;
-    padding-top: 20px;
+    margin: 0 auto;
+    margin-top: 95px;
 }
 
 .banner__inner {
@@ -507,12 +516,50 @@ header div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 70%;
+    width: 50%;
+    color : #FFFFFF;
+}
+
+.banner__inner__left h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.banner__inner__left div{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-between;
+    margin: 30px 0 0;
+}
+
+.btn__bi__left{
+    background: #00EA99;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .banner__inner__right {
     display: flex;
     justify-content: flex-end; /* content aligné sur la fin droite de son parent*/
-    width: 30%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
 }
 
+.banner__inner__right section img{
+    width: 519px;
+    height: 417px;
+}
+
+.separator__1{
+    border-top: 2px solid #ffffff; /* Vous pouvez personnaliser l'épaisseur, la couleur et le style de la ligne */
+    width: 100%; /* Pour que la ligne s'étende sur toute la largeur */
+}
