@@ -1,0 +1,88 @@
+.banner {
+    /* Centrer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 95px;
+}
+
+.banner__inner {
+    /* Positionner */
+    display: flex;
+    flex-direction: row; /* direction du content*/
+    justify-content: space-between;
+    /* Responsive */
+    max-width: 63.5vw;
+}
+
+.banner__inner__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    color : #FFFFFF;
+}
+
+.banner__inner__left h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.banner__inner__left h3{
+    font-weight: 500;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.banner__inner__left div{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-between;
+    margin: 30px 0 0;
+}
+
+.btn__bi__left{
+    background: #00EA99;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.btn__bi__right{
+    display: flex;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.btn__bi__right svg{
+    display: flex;
+    margin: auto;
+}
+
+
+.banner__inner__right {
+    display: flex;
+    justify-content: flex-end; /* content aligné sur la fin droite de son parent*/
+    margin: 0;
+    padding: 0;
+}
+
+.banner__inner__right section img{
+    width: 120%;
+}

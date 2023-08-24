@@ -1,0 +1,124 @@
+/* MEDIA QUERIES */
+
+/*MQ Tablettes*/
+@media (max-width: 768px) {
+    body {
+        font-size: 0.875rem;
+    }
+
+    .left__group {
+        display: none;
+        visibility: hidden;
+    }
+
+    .right__group {
+        display: none;
+        visibility: hidden;
+    }
+
+    #burger-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: auto;
+    }
+
+    #menu {
+        display: flex;
+        width: 100%;
+        left: -100%;
+        visibility: visible;
+    }
+
+    #burger-toggle:checked ~ #menu {
+        left: 0;
+    }
+
+    .banner__inner__right section {
+        display: none;
+        visibility: hidden;
+    }
+}
+/*MQ Mobile*/
+@media (max-width: 480px) {
+    body {
+        font-size: 0.75rem;
+    }
+
+    figure {
+        display: flex;
+        margin: auto;
+        padding: 0;
+        width: 70%;
+        height: 70%;
+    }
+
+    .left__group {
+        display: none;
+        visibility: hidden;
+    }
+
+    .right__group {
+        display: none;
+        visibility: hidden;
+    }
+    #burger-icon {
+        display: block;
+    }
+
+    #menu {
+        width: 100%;
+        left: -100%;
+        display: block;
+        visibility: visible;
+    }
+
+    #burger-toggle:checked ~ #menu {
+        left: 0;
+    }
+
+    .banner__inner__right section {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+/*MQ Desktop*/
+@media (max-width: 1700px) {
+    #burger-icon {
+        display: block;
+    }
+
+    #menu {
+        width: 100%;
+        left: -100%;
+        display: flex;
+        visibility: visible;
+    }
+
+    #burger-toggle:checked ~ #menu {
+        left: 0;
+    }
+
+
+}
+
+
+/*MQ Widescreens*/
+@media (max-width: 1700px) {
+
+    .left__group {
+        display: none;
+        visibility: hidden;
+    }
+
+
+}
+
+@media (max-width: 1280px) {
+    .banner__inner__right section {
+        display: none;
+        visibility: hidden;
+    }
+}
