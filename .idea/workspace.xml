@@ -7,8 +7,11 @@
     <list default="true" id="7fabc243-5f8d-42ac-8c7b-f12b32e6cf92" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/banner.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ressources/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ressources/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/media-queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/separator.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/separator.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -61,14 +64,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shammy\Documents\Github\subskill-project" />
       <recent name="C:\Users\shammy\Documents\Github\subskill-project\ressources\css" />
       <recent name="C:\Users\shammy\Documents\Github\subskill-project\ressources\css\assets" />
       <recent name="C:\Users\shammy\Documents\Github\subskill-project\ressources\images" />
       <recent name="C:\Users\shammy\Documents\Github\subskill-project\ressources\style" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.test.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/subskill-project/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/subskill-project/test.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -83,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.test.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="npm.dev" />
       </list>
@@ -106,6 +114,7 @@
       <workItem from="1692850718969" duration="1463000" />
       <workItem from="1692883713639" duration="4141000" />
       <workItem from="1692894437634" duration="4005000" />
+      <workItem from="1692898671030" duration="2571000" />
     </task>
     <servers />
   </component>

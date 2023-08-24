@@ -1,25 +1,17 @@
 
 html {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #302E44;
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
 }
 
 body {
-    font-size: 0.875rem;
     display: flex;
-    align-items: center;
+    font-size: 0.875rem;
+    width: 100%;
     justify-content: center;
 }
 
 main {
     display: flex;
-}
-
-header{
-    position: fixed;
-    top: 0;
-    margin-bottom:20px ;
 }

@@ -1,49 +1,13 @@
 /* MEDIA QUERIES */
 
-/*MQ Tablettes*/
-@media (max-width: 768px) {
-    body {
-        font-size: 0.875rem;
-    }
-
-    .left__group {
-        display: none;
-        visibility: hidden;
-    }
-
-    .right__group {
-        display: none;
-        visibility: hidden;
-    }
-
-    #burger-icon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        margin: auto;
-    }
-
-    #menu {
-        display: flex;
-        width: 100%;
-        left: -100%;
-        visibility: visible;
-    }
-
-    #burger-toggle:checked ~ #menu {
-        left: 0;
-    }
-
-    .banner__inner__right section {
-        display: none;
-        visibility: hidden;
-    }
-}
 /*MQ Mobile*/
 @media (max-width: 480px) {
     body {
+        display: flex;
+        flex-direction: row;
         font-size: 0.75rem;
+        justify-content: center;
+
     }
 
     figure {
@@ -62,20 +26,6 @@
     .right__group {
         display: none;
         visibility: hidden;
-    }
-    #burger-icon {
-        display: block;
-    }
-
-    #menu {
-        width: 100%;
-        left: -100%;
-        display: block;
-        visibility: visible;
-    }
-
-    #burger-toggle:checked ~ #menu {
-        left: 0;
     }
 
     .banner__inner__right section {
@@ -107,27 +57,41 @@
 
 }
 
-/*MQ Desktop*/
-@media (max-width: 1700px) {
-    #burger-icon {
-        display: block;
+
+
+
+/*MQ Tablettes*/
+@media (max-width: 768px) {
+    body {
+        font-size: 0.875rem;
     }
 
-    #menu {
-        width: 100%;
-        left: -100%;
-        display: flex;
-        visibility: visible;
+    .left__group {
+        display: none;
+        visibility: hidden;
     }
 
-    #burger-toggle:checked ~ #menu {
-        left: 0;
+    .right__group {
+        display: none;
+        visibility: hidden;
     }
 
+    .banner__inner__right section {
+        display: none;
+        visibility: hidden;
+    }
 
+    .banner__inner__left{
+        padding-bottom: 60px;
+    }
 }
 
-@media (max-width: 1280px) {
+
+
+
+/*MQ Desktop*/
+
+    @media (max-width: 1280px) {
     .banner__inner__right section {
         display: none;
         visibility: hidden;
@@ -147,6 +111,10 @@
         align-items: center;
         justify-content: center;
     }
+
+        .banner__inner__left{
+            padding-bottom: 60px;
+        }
 }
 
 /*MQ Widescreens*/
