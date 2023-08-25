@@ -54,6 +54,19 @@
         color: black;
     }
 
+    .text__left a{
+        display: none;
+        visibility: hidden;
+        margin: 0;
+    }
+
+    .text__left {
+        display: none;
+        visibility: hidden;
+        margin: 0;
+    }
+
+
 }
 
 
@@ -85,6 +98,14 @@
 
     .text__left a{
         display: none;
+        visibility: hidden;
+        margin: 0;
+    }
+
+    .text__left {
+        display: none;
+        visibility: hidden;
+        margin: 0;
     }
 
 }
@@ -153,9 +174,6 @@
 
         .left__group{
             display: flex;
-            align-items: center;
-            justify-content: center;
-            align-self: center;
         }
 
         .menu__burger{
@@ -177,4 +195,17 @@
             height: 100%;
         }
 
-}
+        .text__left a{
+            display: none;
+            visibility: hidden;
+            margin: 0;
+        }
+
+        .text__left {
+            display: none;
+            visibility: hidden;
+            margin: 0;
+        }
+
+
+    }
