@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     color: white;
-    width: 70%;
+    max-width: 63.5vw;
     margin: 0 auto;
 }
 
@@ -16,7 +16,12 @@
 .article__cards__content{
     display: flex;
     flex-direction: row;
+}
 
+.article__cards__content div{
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
 }
 
 .article__cards__content figure{
@@ -40,7 +45,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-bottom: 10px;
+    padding: 10px 0 5px 0;
 }
 
 .article__cards__content h2{
@@ -57,13 +62,24 @@
     justify-content: flex-start;
     margin: 0;
 }
+.article__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 50px 0 50px 0;
+    width: 30%;
+}
+
+.article__title h1{
+    font-size:40px ;
+}
 
 .article__button{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0;
-    padding-top: 35px;
+    padding: 40px 0 100px 0px;
 }
 
 .article__button button {
@@ -81,5 +97,17 @@
     max-width: 100%;
     cursor: pointer;
     box-sizing: border-box;
+}
+
+.a__card__1{
+    padding-right: 30px;
+}
+.a__card__2{
+    padding-right: 30px;
+}
+.a__card__3{
+    padding-right: 30px;
+}
+.a__card__4{
 }
 
