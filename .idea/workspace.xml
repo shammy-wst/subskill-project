@@ -7,8 +7,7 @@
     <list default="true" id="7fabc243-5f8d-42ac-8c7b-f12b32e6cf92" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/free__trial.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/free__trial.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/media-queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +117,7 @@
       <workItem from="1692906402997" duration="7963000" />
       <workItem from="1692971702351" duration="4685000" />
       <workItem from="1692976400938" duration="118000" />
-      <workItem from="1692976660962" duration="12346000" />
+      <workItem from="1692976660962" duration="15575000" />
     </task>
     <servers />
   </component>

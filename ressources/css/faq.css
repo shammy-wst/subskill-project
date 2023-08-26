@@ -1,0 +1,70 @@
+.FAQ{
+    background: white;
+}
+
+.FAQ__wrapper{
+    flex-direction: column;
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.FAQ__TOP__CONT{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FAQ__CARDS{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.FAQ__CARD__1{
+    background: #B3F9E0;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 60px 75px 60px;
+    font-size: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.FAQ__CARD__2{
+    background: #302E44;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 45px 40px 45px;
+    color: white;
+    font-size: 20px;
+}
+
+.FAQ__CARD__3{
+    background: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    padding: 65px 35px 65px 35px;
+    font-size: 20px;
+}
+
+.read__faq{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.read__faq h3{
+    padding-right: 15px;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
