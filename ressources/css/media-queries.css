@@ -121,10 +121,6 @@
         visibility: hidden;
     }
 
-        .header{
-            justify-content: start;
-        }
-
     .banner__inner__left{
         display: flex;
         width: 100%;

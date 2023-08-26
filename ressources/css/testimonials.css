@@ -1,0 +1,102 @@
+.testimonials{
+    width: 100%;
+    background: #F5F5F5;
+}
+
+.testimonials__wrapper{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0 100px 0;
+    justify-content: center;
+}
+
+.testimonials__left__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.testimonials__left__content h1{
+    padding-bottom: 170px;
+}
+
+
+
+
+.testimonials__right__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.testimonials__right__content img{
+    display: flex;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.testimonials__right__content h2{
+    margin: 0 auto;
+    padding: 0 12px 50px 12px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 2; /* Espacement entre les lignes */
+}
+
+.testimonials__right__content h3{
+    color: #302E44;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.testimonials__right__content h4{
+    color: #787878;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.spacer {
+    margin: 20px 0; /* Ajoute un espace de 20px entre les lignes */
+}
+
+
+.testimonials__right__content h3{
+    padding-left: 12px;
+}
+
+.testimonials__right__content h4{
+    padding-left: 12px;
+}
+
+.separator__2{ ;
+    position: relative;
+    border-top: 2px solid #A3A3A3; /* Vous pouvez personnaliser l'épaisseur, la couleur et le style de la ligne */
+    width: 100%; /* Pour que la ligne s'étende sur toute la largeur */
+    z-index: 1;
+}
+
+.separator__2__color{
+    position: absolute;
+    border-top: 5px solid #00EA99;
+    width: 30%;
+    border-radius: 10px;
+    z-index: 2;
+    top: -4px; /* Position au-dessus de l'élément parent */
+}
+
+.testimonials__right__content__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.buttons__tst figure{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
