@@ -1,0 +1,95 @@
+.our__team{
+    display: flex;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.our__team__wrapper{
+    display: flex;
+    max-width: 63.5vw;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.team__top__card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.image__testimony{
+    display: flex;
+}
+
+.img__testimony{
+    margin: 0;
+    padding: 0;
+}
+
+.image__testimony img{
+    margin: 0;
+    padding: 0;
+}
+
+.team__card__1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 0;
+}
+
+.team__card__1 .testimony{
+    position: absolute;
+    z-index: 1;
+    bottom: 96px;
+    background-color: #302E44;
+    height: 12vh;
+    width: 100%;
+}
+
+.team__card__2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 0;
+}
+
+.team__card__2 .testimony{
+    position: absolute;
+    z-index: 1;
+    bottom: 96px;
+    background-color: #302E44;
+    height: 12vh;
+    width: 100%;
+}
+
+.testimony{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.team__card__2{
+    display: flex;
+    flex-direction: column;
+}
+
+.team__card__3{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.team__bot__card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
