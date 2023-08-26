@@ -19,52 +19,122 @@
     align-items: center;
 }
 
+.FAQ__TOP__TXT{
+    font-size: 20px;
+}
+
 .FAQ__CARDS{
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0;
+    padding: 20px;
 }
 
 .FAQ__CARD__1{
     background: #B3F9E0;
     display: flex;
     flex-direction: column;
-    padding: 75px 60px 75px 60px;
-    font-size: 20px;
+    font-size: 14px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
+    height: 241px;
+    justify-content: center;
+    padding: 20px;
 }
 
 .FAQ__CARD__2{
     background: #302E44;
     display: flex;
     flex-direction: column;
-    padding: 40px 45px 40px 45px;
+    font-size: 14px;
+    width: 100%;
+    margin: 0;
+    height: 241px;
+    justify-content: center;
+    padding: 20px;
     color: white;
-    font-size: 20px;
 }
 
 .FAQ__CARD__3{
     background: #F9F9F9;
     display: flex;
     flex-direction: column;
-    padding: 65px 35px 65px 35px;
-    font-size: 20px;
+    font-size: 14px;
+    width: 100%;
+    margin: 0;
+    height: 241px;
+    justify-content: center;
+    padding: 20px;
 }
+
+.faq_cards__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.faq_cards__content div h2{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .read__faq{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin: 0;
 }
 
 .read__faq h3{
     padding-right: 15px;
     text-decoration: underline;
     font-size: 14px;
+}
+
+
+.FAQ__BOT__CONT{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.FAQ__BOT__CONT figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+.FAQ__BOT__CONT div{
+    display: flex;
+}
+
+.FAQ__BOT__CONT div button{
+    display: flex;
+    margin: 70px 0 0 0;
+    padding: 20px;
+    border : none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: #2F2E41;
+    text-decoration: none;
+    font-weight: 600;
+    max-width: 100%;
+    max-height: 20%;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: white;
 }
 
