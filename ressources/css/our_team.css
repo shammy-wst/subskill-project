@@ -2,11 +2,12 @@
     display: flex;
     background-color: #ffffff;
     margin: 0;
+    width: 100%;
 }
 
 .our__team__wrapper{
     display: flex;
-    max-width: 63.5vw;
+    width: 63.5vw;
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
@@ -16,6 +17,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    gap: 20px;
 }
 
 .image__testimony{
@@ -42,7 +44,7 @@
 .team__card__1 .testimony{
     position: absolute;
     z-index: 1;
-    bottom: 96px;
+    bottom: 95px;
     background-color: #302E44;
     height: 12vh;
     width: 100%;
@@ -58,7 +60,7 @@
 .team__card__2 .testimony{
     position: absolute;
     z-index: 1;
-    bottom: 96px;
+    bottom: 95px;
     background-color: #302E44;
     height: 12vh;
     width: 100%;
