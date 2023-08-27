@@ -54,15 +54,16 @@ header {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    justify-content: space-evenly;
+    justify-content: space-between;
     max-width: 20vw;
-
+    gap: 20px;
 }
 
 .text__left{
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
 
 /* NAVIGATION */
 
@@ -130,16 +131,36 @@ figure img {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    justify-content: space-evenly;
-    max-width: 20vw;
+    justify-content: space-between;
+    gap: 20px;
+    box-sizing: border-box;
 }
 
 .right__text{
+    display: flex;
     font-size: 11px;
-    padding : 20px;
     margin: 0;
+    padding: 0;
     text-align: center;
     cursor: pointer;
+    justify-content: space-between;
+}
+
+.header__login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.header__login svg {
+    display: flex;
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 
