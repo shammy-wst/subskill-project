@@ -3,12 +3,12 @@
     background-color: #ffffff;
     margin: 0;
     width: 100%;
-    padding-top: 138px;
+    padding: 138px 0 80px 0;
 }
 
 .our__team__wrapper{
     display: flex;
-    width: 63.5vw;
+    width: 80%;
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
@@ -51,10 +51,15 @@
     z-index: 0;
 }
 
+.team__card h3{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
 .team__card .testimony{
     position: absolute;
     z-index: 1;
-    bottom: 95px;
+    bottom: 93px;
     background-color: #302E44;
     height: 12vh;
     width: 100%;
@@ -75,7 +80,7 @@
 
 .team__bot__card{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
     gap: 30px;
 }

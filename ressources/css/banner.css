@@ -13,7 +13,7 @@
     flex-direction: row; /* direction du content*/
     justify-content: space-between;
     /* Responsive */
-    max-width: 63.5vw;
+    width: 80%;
 }
 
 .banner__inner__left {

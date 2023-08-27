@@ -1,0 +1,162 @@
+.newsletter{
+    display: flex;
+    background: white;
+    margin: 0;
+    width: 100%;
+    padding: 10px 0 80px 0;
+}
+
+.newsletter__wrapper{
+    background: #F5F5F5;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nw__content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+ .nw__left__content{
+    display: flex;
+    flex-direction: column;
+     padding: 80px
+ }
+
+.nw__left__content span{
+color: #00EA99;
+}
+
+.nw__left__content h1{
+    font-size: 40px;
+    width: 80%;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.nw__left__content h2{
+    font-size: 14px;
+    font-weight: normal;
+    width: 80%;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+ .nw__right__content{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+        margin: 0;
+    padding: 0;
+     justify-content: flex-end;
+ }
+
+.nw__right__content figure{
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+.nw__right__content img{
+    padding: 0;
+    margin: 0;
+    width: 65%;
+}
+
+.mail__placeholder{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0;
+    padding-bottom: 30px;
+    justify-content: flex-start;
+    color: #302E44;
+}
+
+.mail__placeholder input{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    border : none;
+    justify-content: flex-start;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    font-weight: normal;
+    width: 100%;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: 0;
+    padding-bottom: 70px;
+    justify-content: flex-start;
+    color: #302E44;
+}
+
+input[type="checkbox"] {
+    display: none; /* Masque la case à cocher par défaut */
+}
+
+/* Style de l'étiquette (label) */
+.myCheckbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px; /* Espace pour l'icône de la case cochée */
+    cursor: pointer;
+}
+
+.myCheckbox a{
+    display: flex;
+    padding-left: 15px;
+}
+
+/* Style de l'icône de la case cochée */
+.myCheckbox:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    background-color: transparent;
+    transition: background-color 0.2s; /* Ajoute une transition au changement de couleur */
+}
+
+/* Style de l'icône de la case cochée lorsque cochée */
+input[type="checkbox"]:checked + .myCheckbox:before {
+    background-color: #00EA99; /* Change la couleur de fond lorsque cochée */
+    border-color: #302E44; /* Change la couleur de la bordure lorsque cochée */
+}
+
+.nw__left__content button{
+    display: flex;
+    margin: 0;
+    padding: 20px 80px 20px 80px;
+    border : none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: #302E44;
+    text-decoration: none;
+    font-weight: 600;
+    width: 30%;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
