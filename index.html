@@ -43,19 +43,12 @@
     </div>
 </div>
 <header id="header" class="header">
+
     <div class="header__wrapper">
         <div class="header__content">
             <!-- Groupe de navigation à gauche -->
             <nav class="header__left">
                 <!-- Bouton de menu -->
-                <div class="menu__burger">
-                    <!-- SVG représentant le bouton de menu -->
-                    <svg width="60px" height="60px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4 18L20 18" stroke="#00EA99" stroke-width="2" stroke-linecap="round" />
-                        <path d="M4 12L20 12" stroke="#00EA99" stroke-width="2" stroke-linecap="round" />
-                        <path d="M4 6L20 6" stroke="#00EA99" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                </div>
                 <!-- Liste des liens à gauche -->
                 <ul class="header__left__text">
                     <li>
@@ -167,6 +160,13 @@
                         Demander une demo
                     </button>
                 </div>
+            </div>
+            <div class="menu__burger">
+                <figure>
+                    <a href="#">
+                        <img src="ressources/css/buttons/assets/menu__dropdown.png" alt="menu">
+                    </a>
+                </figure>
             </div>
         </div>
     </div>
@@ -332,9 +332,9 @@
             <div class="free__trial__wrapper">
                 <div class="free__trial__content">
                     <div class="free__trial__left__content">
-                        <h1>Testez Mission RGPD grâce à notre essai gratuit </h1>
+                        <h1>Testez Mission RGPD grâce à notre <span> essai gratuit</span> </h1>
                         <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</h2>
-                        <button class="white__button" style="margin: 0"> Essai gratuit </button>
+                        <button class="white__button"> Essai gratuit </button>
                     </div>
                 </div>
                 <div class="free__trial__right__content">
@@ -350,7 +350,7 @@
             <div class="testimony__left__content">
                 <div class="testimony__left__content__wrapper">
                     <div class="text__left__cw">
-                        <h1>Nos clients <br>témoignent </h1>
+                        <h1>Nos clients témoignent </h1>
                     </div>
                     <div class="img__left__cw">
                         <svg width="526" height="364" viewBox="0 0 526 364" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -489,46 +489,46 @@
             </div>
             <div class="article__cards">
                 <div class="article__cards__content">
-                    <div class="a__card__1">
+                    <div class="a__card">
                         <figure>
                             <img src="ressources/images/photo3.png" alt="img">
                         </figure>
                         <div>
                             <a>2 Sept 2022</a>
-                            <a>#categorie 1</a>
+                            <p>#categorie 1</p>
                             <h2>Lorem ipsum dolor sit amet, consectur vacra despinas calacuta pradia</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ...</h3>
                         </div>
                     </div>
-                    <div class="a__card__2">
+                    <div class="a__card">
                         <figure>
                             <img src="ressources/images/photo3.png" alt="img">
                         </figure>
                         <div>
                             <a>2 Sept 2022</a>
-                            <a>#categorie 1</a>
+                            <p>#categorie 1</p>
                             <h2>Lorem ipsum dolor sit amet, consectur vacra despinas calacuta pradia</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ...</h3>
                         </div>
                     </div>
-                    <div class="a__card__3">
+                    <div class="a__card">
                         <figure>
                             <img src="ressources/images/photo3.png" alt="img">
                         </figure>
                         <div>
                             <a>2 Sept 2022</a>
-                            <a>#categorie 1</a>
+                            <p>#categorie 1</p>
                             <h2>Lorem ipsum dolor sit amet, consectur vacra despinas calacuta pradia</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ...</h3>
                         </div>
                     </div>
-                    <div class="a__card__4">
+                    <div class="a__card">
                         <figure>
                             <img src="ressources/images/photo3.png" alt="img">
                         </figure>
                         <div>
                             <a>2 Sept 2022</a>
-                            <a>#categorie 1</a>
+                            <p>#categorie 1</p>
                             <h2>Lorem ipsum dolor sit amet, consectur vacra despinas calacuta pradia</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ...</h3>
                         </div>
@@ -547,48 +547,51 @@
             <h1>Notre équipe <span>d’experts</span>
             </h1>
             <div class="team__top__card">
-                <div class="team__card">
-                    <div class="image__testimony">
-                        <figure class="img__testimony">
-                            <img src="ressources/images/female.png" alt="img">
-                            <div class="see__testimony">
-                                <a href="#">Voir le témoignage</a>
-                            </div>
-                        </figure>
+                <div>
+                    <div class="team__card">
+                        <div class="image__testimony">
+                            <figure class="img__testimony">
+                                <img src="ressources/images/female.png" alt="img">
+                                <div class="see__testimony">
+                                    <a href="#">Voir le témoignage</a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="name__post">
+                            <h2>Nom prénom</h2>
+                            <h3>Nom du poste</h3>
+                        </div>
                     </div>
-                    <div class="name__post">
-                        <h2>Nom prénom</h2>
-                        <h3>Nom du poste</h3>
+                    <div class="team__card">
+                        <div class="image__testimony">
+                            <figure class="img__testimony">
+                                <img src="ressources/images/male.png" alt="img">
+                                <div class="see__testimony">
+                                    <a href="#">Voir le témoignage</a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="name__post">
+                            <h2>Nom prénom</h2>
+                            <h3>Nom du poste</h3>
+                        </div>
+                    </div>
+                    <div class="team__card">
+                        <div class="image__testimony">
+                            <figure class="img__testimony">
+                                <img src="ressources/images/male.png" alt="img">
+                                <div class="see__testimony">
+                                    <a href="#">Voir le témoignage</a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="name__post">
+                            <h2>Nom prénom</h2>
+                            <h3>Nom du poste</h3>
+                        </div>
                     </div>
                 </div>
-                <div class="team__card">
-                    <div class="image__testimony">
-                        <figure class="img__testimony">
-                            <img src="ressources/images/male.png" alt="img">
-                            <div class="see__testimony">
-                                <a href="#">Voir le témoignage</a>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="name__post">
-                        <h2>Nom prénom</h2>
-                        <h3>Nom du poste</h3>
-                    </div>
-                </div>
-                <div class="team__card">
-                    <div class="image__testimony">
-                        <figure class="img__testimony">
-                            <img src="ressources/images/male.png" alt="img">
-                            <div class="see__testimony">
-                                <a href="#">Voir le témoignage</a>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="name__post">
-                        <h2>Nom prénom</h2>
-                        <h3>Nom du poste</h3>
-                    </div>
-                </div>
+
             </div>
             <div class="team__bot__card">
                 <div class="team__card">

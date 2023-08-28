@@ -1,9 +1,12 @@
 .latest__articles{
     display: flex;
-    flex-direction: row;
-    color: white;
-    max-width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
+    padding: 0;
+    color: white;
+    width: 80%;
 }
 
 .lat__articles__wrapper{
@@ -82,7 +85,7 @@
     flex-direction: row;
     justify-content: center;
     margin: 0;
-    padding: 40px 0 100px 0px;
+    padding: 40px 0 100px 0;
 }
 
 .article__button button {
@@ -100,4 +103,48 @@
     max-width: 100%;
     cursor: pointer;
     box-sizing: border-box;
+}
+
+
+.a__card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.a__card p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #00EA99;
+
+}
+
+.a__card a{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: bold;
+
+}
+
+.a__card h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.a__card h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.a__card h2:hover{
+    text-decoration: underline;
 }
