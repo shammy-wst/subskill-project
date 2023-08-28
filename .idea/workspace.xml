@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fabc243-5f8d-42ac-8c7b-f12b32e6cf92" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/details.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/details.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/separator.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/separator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/stats.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/stats.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/js/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/banner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/header.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,9 @@
       <workItem from="1692976660962" duration="15621000" />
       <workItem from="1693067050137" duration="3499000" />
       <workItem from="1693072793446" duration="21620000" />
-      <workItem from="1693160655846" duration="3503000" />
+      <workItem from="1693160655846" duration="4133000" />
+      <workItem from="1693167921276" duration="192000" />
+      <workItem from="1693179629084" duration="4603000" />
     </task>
     <servers />
   </component>

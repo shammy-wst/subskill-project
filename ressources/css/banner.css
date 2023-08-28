@@ -7,7 +7,7 @@
     margin-top: 200px;
 }
 
-.banner__inner {
+.banner__content {
     /* Positionner */
     display: flex;
     flex-direction: row; /* direction du content*/
@@ -16,7 +16,7 @@
     width: 80%;
 }
 
-.banner__inner__left {
+.banner__content__left {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,20 +24,20 @@
     color : #FFFFFF;
 }
 
-.banner__inner__left h1{
+.banner__content__left h1{
     font-size: 3rem;
     font-weight: 600;
     margin: 0;
     padding: 0;
 }
 
-.banner__inner__left h3{
+.banner__content__left p{
     font-weight: 500;
     margin: 0;
     padding-top: 15px;
 }
 
-.banner__inner__left div{
+.banner__content__left div{
     display: flex;
     flex-direction: row;
     padding: 0;
@@ -45,44 +45,55 @@
     margin: 30px 0 0;
 }
 
-.btn__bi__left{
-    background: #00EA99;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #FFFFFF;
-    cursor: pointer;
-}
 
-
-.btn__bi__right{
+.right__video__button{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background: none;
     border: none;
-    border-radius: 5px;
-    padding: 20px;
     font-size: 1rem;
     font-weight: 600;
-    color: #FFFFFF;
     cursor: pointer;
-    text-decoration: underline;
+    gap: 10px;
 
 }
 
-.btn__bi__right svg{
+.right__video__button a{
     display: flex;
-    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+hover.right__video__button a{
+    text-decoration: underline;
+}
+
+.right__video__button svg{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.banner__inner__right {
+.banner__content__right {
     display: flex;
     justify-content: flex-end; /* content aligné sur la fin droite de son parent*/
     margin: 0;
     padding: 0;
 }
 
-.banner__inner__right section img{
+.banner__content__right section figure{
     width: 120%;
+}
+
+.banner__content__right section figure img{
+    width: 100%;
+    height: auto;
 }

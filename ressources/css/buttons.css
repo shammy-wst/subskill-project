@@ -1,0 +1,60 @@
+.white__button {
+    display: flex;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    border : #302E44 1px solid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.green__button {
+    display: flex;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    border : #00EA99 1px solid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: #00EA99;
+    text-decoration: none;
+    font-weight: 600;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.green__button a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;;
+    font-weight: 600;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.white__button a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;;
+    font-weight: 600;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+/*Header Buttons*/
+.header__action__buttons :hover {
+    background-color: #00EA99;
+    color : #FFFFFF;
+    transition: 0.2s;
+}
