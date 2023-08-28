@@ -30,7 +30,7 @@
     justify-content: space-between;
 }
 
-.statistiques ul{
+.statistiques dl{
     display: flex;
     flex-direction: row;
     justify-content: space-between;

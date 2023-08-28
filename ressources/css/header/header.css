@@ -1,35 +1,34 @@
 /* HEADER */
+/* Style pour l'en-tête fixe en haut de la page */
 header {
     position: fixed;
     top: 0;
-    /*Inside header*/
-    flex-direction: row;
+    flex-direction: row; /* Direction horizontale pour les éléments enfants */
     margin: 0;
-    padding: 20px 0 20px 0;
-    display: flex;
-    background-color:#ffffff;
-    justify-content: center;
-    /*Header form*/
-    width: 90%;
-    height: 12vh;
-    border-radius: 0 0 30px 30px;
-    /*Transitions*/
-    transform: translateY(0);
-    transition: transform 0.5s ease-in-out;
-    z-index: 2;
+    padding: 20px 0 20px 0; /* Espacement intérieur du header */
+    display: flex; /* Afficher les éléments enfants en ligne */
+    background-color: #ffffff; /* Couleur de fond blanche */
+    justify-content: center; /* Centrer les éléments horizontalement */
+    width: 90%; /* Largeur du header */
+    height: 12vh; /* Hauteur du header */
+    border-radius: 0 0 30px 30px; /* Coins arrondis en bas */
+    transform: translateY(0); /* Décalage vertical initial */
+    transition: transform 0.5s ease-in-out; /* Animation de transition en cas de transformation */
+    z-index: 2; /* Couche z-index pour le positionnement */
 }
 
-    .header.active {
-        transform: translateY(-100%);
-    }
-
-
-    .header.hidden {
-    opacity: 0;
+/* Styles pour le header actif (menu déroulé vers le haut) */
+.header.active {
+    transform: translateY(-100%); /* Animation de translation vers le haut */
 }
 
+/* Style pour le header caché */
+.header.hidden {
+    opacity: 0; /* Opacité à zéro pour le masquage */
+}
 
-.header__wrapper{
+/* Conteneur principal du header */
+.header__wrapper {
     display: flex;
     margin: 0;
     padding: 0;
@@ -37,8 +36,8 @@ header {
     justify-content: center;
 }
 
-
-.header__content{
+/* Contenu du header */
+.header__content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,8 +48,8 @@ header {
 }
 
 /* LEFT GROUP */
-
-.header__left{
+/* Groupe de navigation à gauche */
+.header__left {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -60,7 +59,8 @@ header {
     gap: 30px;
 }
 
-.header__left__text{
+/* Texte à gauche du header */
+.header__left__text {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -68,16 +68,17 @@ header {
     margin: 0;
 }
 
-.header__left__text li{
+/* Styles pour les éléments de texte à gauche */
+.header__left__text li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
     font-weight: normal;
-    text-wrap: nowrap;
+    white-space: nowrap; /* Empêcher le renvoi à la ligne du texte */
 }
 
-.header__left__text a{
+.header__left__text a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -85,25 +86,25 @@ header {
     margin: 0;
 }
 
-
-
 /* NAVIGATION */
-
+/* Navigation principale */
 .header__navigation {
     display: flex;
     flex-direction: row;
-    margin : 0;
+    margin: 0;
     font-weight: 600;
     padding: 0;
     width: 100%;
 }
 
+/* Liste des éléments de navigation */
 .header__proper__navigation {
     display: flex;
-    margin:  0;
-    padding : 0;
+    margin: 0;
+    padding: 0;
 }
 
+/* Styles pour les éléments de la navigation */
 header nav ul li {
     display: flex;
 }
@@ -112,22 +113,20 @@ header nav ul li a {
     display: flex;
     margin: auto;
     text-decoration: none;
-    color : #302E44;
+    color: #302E44;
 }
 
-
-/*MIDDLE GROUP*/
-
-.header__middle{
+/* MIDDLE GROUP */
+/* Groupe au milieu du header */
+.header__middle {
     display: flex;
     margin: 0;
     padding: 0;
     align-items: center;
 }
 
-/* Image */
-
-.header__logo{
+/* Logo au milieu */
+.header__logo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -138,8 +137,8 @@ header nav ul li a {
 }
 
 /* RIGHT GROUP */
-
-.header__right{
+/* Groupe de droite */
+.header__right {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -149,7 +148,8 @@ header nav ul li a {
     box-sizing: border-box;
 }
 
-.header__right__text{
+/* Texte à droite du header */
+.header__right__text {
     display: flex;
     font-size: 11px;
     margin: 0;
@@ -159,7 +159,8 @@ header nav ul li a {
     justify-content: space-between;
 }
 
-.header__login{
+/* Icône et lien de connexion */
+.header__login {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -176,25 +177,22 @@ header nav ul li a {
     align-items: center;
 }
 
-
-
+/* Style au survol du lien de connexion */
 .login:hover {
-    color : #00EA99;
+    color: #00EA99;
     text-decoration: underline;
 }
 
-/* Button section header */
-
+/* Boutons d'action du header */
 .header__action__buttons {
     display: flex;
     flex-direction: row;
-    padding : 0;
+    padding: 0;
     margin: 0;
     gap: 20px;
 }
 
-/*Menu burger*/
-
+/* Menu burger (caché dans cette version) */
 .menu__burger {
     display: none;
 }

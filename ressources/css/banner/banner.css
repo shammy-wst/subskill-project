@@ -1,0 +1,118 @@
+/* Style pour la section de la bannière */
+.banner {
+    /* Centrer le contenu verticalement et horizontalement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 200px;
+    /* Marge en haut de la bannière */
+}
+
+/* Conteneur du contenu de la bannière */
+.banner__content {
+    /* Disposition en ligne avec espace entre les éléments */
+    display: flex;
+    flex-direction: row;
+    /* Direction horizontale pour le contenu */
+    justify-content: space-between;
+    /* Largeur de 80% pour un affichage responsive */
+    width: 80%;
+}
+
+/* Partie gauche du contenu de la bannière */
+.banner__content__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    /* Largeur de 50% */
+    color: #FFFFFF;
+    /* Couleur du texte */
+}
+
+/* Style du titre principal */
+.banner__content__left h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style du paragraphe */
+.banner__content__left p {
+    font-weight: 500;
+    margin: 0;
+    padding-top: 15px;
+}
+
+/* Conteneur pour les boutons et les icônes */
+.banner__content__left div {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-between;
+    margin: 30px 0 0;
+    /* Marge en haut */
+}
+
+/* Style du bouton pour la vidéo */
+.right__video__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    gap: 10px;
+}
+
+/* Style du lien à l'intérieur du bouton */
+.right__video__button a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+/* Style au survol du lien à l'intérieur du bouton */
+.right__video__button:hover a {
+    text-decoration: underline;
+}
+
+/* Style de l'icône à l'intérieur du bouton */
+.right__video__button svg {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Partie droite du contenu de la bannière */
+.banner__content__right {
+    display: flex;
+    justify-content: flex-end;
+    /* Contenu aligné sur la fin droite */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de l'image dans la partie droite de la bannière */
+.banner__content__right section figure {
+    width: 120%;
+    /* Largeur légèrement augmentée pour déborder */
+}
+
+/* Style de l'image dans la partie droite de la bannière */
+.banner__content__right section figure img {
+    width: 100%;
+    /* Image occupant toute la largeur */
+    height: auto;
+    /* Hauteur ajustée automatiquement */
+}
