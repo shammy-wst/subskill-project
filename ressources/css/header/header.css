@@ -45,6 +45,8 @@ header {
     width: 100%;
     padding: 0;
     align-items: center;
+    position: relative;
+    z-index: 0;
 }
 
 /* LEFT GROUP */
@@ -195,4 +197,85 @@ header nav ul li a {
 /* Menu burger (caché dans cette version) */
 .menu__burger {
     display: none;
+}
+
+.open__menu{
+    display:flex;
+    flex-direction: row;
+    color: #2F2E41;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: 130px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: white;
+    visibility: hidden;
+}
+
+
+.open__menu__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.open__menu__txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+    margin: 0;
+    color: rgba(47, 46, 65, 0.5);
+}
+
+.open__menu__txt ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.open__menu__txt li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+}
+
+.open__menu__txt a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.open__menu__txt h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+    width: 70%;
 }

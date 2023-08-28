@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fabc243-5f8d-42ac-8c7b-f12b32e6cf92" name="Changes" comment="">
+    <list default="true" id="7fabc243-5f8d-42ac-8c7b-f12b32e6cf92" name="Changes" comment="MQ updt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/banner/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/banner/banner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/buttons/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/buttons/buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/details/details.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/details/details.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/faq/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/faq/faq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/info__rgpd/info__rgpd.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/info__rgpd/info__rgpd.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/our__team/our__team.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/our__team/our__team.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/stats/stats.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/stats/stats.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/testimonials/testimonials.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/testimony/testimony.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/header/header.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +18,27 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shammy-wst&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a2cdb609-dc19-4e64-8d69-3b25e1e6c0d9" />
+        <option name="url" value="https://github.com/shammy-wst/subskill-project.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -130,10 +137,24 @@
       <workItem from="1693160655846" duration="4133000" />
       <workItem from="1693167921276" duration="192000" />
       <workItem from="1693179629084" duration="13759000" />
+      <workItem from="1693248873516" duration="4309000" />
     </task>
+    <task id="LOCAL-00001" summary="MQ updt">
+      <option name="closed" value="true" />
+      <created>1693199856225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693199856225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MQ updt" />
+    <option name="LAST_COMMIT_MESSAGE" value="MQ updt" />
   </component>
 </project>

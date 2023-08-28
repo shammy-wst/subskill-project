@@ -1,0 +1,268 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7fabc243-5f8d-42ac-8c7b-f12b32e6cf92\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ressources/css/banner/banner.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ressources/css/banner/banner.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ressources/css/buttons/buttons.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ressources/css/buttons/buttons.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ressources/css/details/details.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ressources/css/details/details.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ressources/css/faq/faq.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ressources/css/faq/faq.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ressources/css/info__rgpd/info__rgpd.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ressources/css/info__rgpd/info__rgpd.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ressources/css/our__team/our__team.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ressources/css/our__team/our__team.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ressources/css/stats/stats.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ressources/css/stats/stats.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ressources/css/testimonials/testimonials.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ressources/css/testimony/testimony.css\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2UOKG7KzAAZqntx4ujwkM7lthvm\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/shammy/Documents/Github/subskill-project/ressources/css/assets&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;discord-project&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\shammy\\Documents\\Github\\subskill-project\\ressources\\css\\assets\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\shammy\\Documents\\Github\\subskill-project\\ressources\\css\" />\r\n      <recent name=\"C:\\Users\\shammy\\Documents\\Github\\subskill-project\\ressources\" />\r\n      <recent name=\"C:\\Users\\shammy\\Documents\\Github\\subskill-project\\ressources\\css\\assets\" />\r\n      <recent name=\"C:\\Users\\shammy\\Documents\\Github\\subskill-project\" />\r\n      <recent name=\"C:\\Users\\shammy\\Documents\\Github\\subskill-project\\ressources\\images\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JavaScript Debug.test.html\">\r\n    <configuration name=\"index.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/subskill-project/index.html\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"test.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/subskill-project/test.html\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"dev\" type=\"js.build_tools.npm\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"run\" />\r\n      <scripts>\r\n        <script value=\"dev\" />\r\n      </scripts>\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JavaScript Debug.test.html\" />\r\n        <item itemvalue=\"JavaScript Debug.index.html\" />\r\n        <item itemvalue=\"npm.dev\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7fabc243-5f8d-42ac-8c7b-f12b32e6cf92\" name=\"Changes\" comment=\"\" />\r\n      <created>1692805088214</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1692805088214</updated>\r\n      <workItem from=\"1692805091238\" duration=\"658000\" />\r\n      <workItem from=\"1692807211141\" duration=\"12102000\" />\r\n      <workItem from=\"1692821798848\" duration=\"7507000\" />\r\n      <workItem from=\"1692838843107\" duration=\"6198000\" />\r\n      <workItem from=\"1692845052462\" duration=\"129000\" />\r\n      <workItem from=\"1692845187981\" duration=\"11000\" />\r\n      <workItem from=\"1692845205009\" duration=\"3731000\" />\r\n      <workItem from=\"1692850718969\" duration=\"1463000\" />\r\n      <workItem from=\"1692883713639\" duration=\"4141000\" />\r\n      <workItem from=\"1692894437634\" duration=\"4005000\" />\r\n      <workItem from=\"1692898671030\" duration=\"3716000\" />\r\n      <workItem from=\"1692906402997\" duration=\"7963000\" />\r\n      <workItem from=\"1692971702351\" duration=\"4685000\" />\r\n      <workItem from=\"1692976400938\" duration=\"118000\" />\r\n      <workItem from=\"1692976660962\" duration=\"15621000\" />\r\n      <workItem from=\"1693067050137\" duration=\"3499000\" />\r\n      <workItem from=\"1693072793446\" duration=\"21620000\" />\r\n      <workItem from=\"1693160655846\" duration=\"4133000\" />\r\n      <workItem from=\"1693167921276\" duration=\"192000\" />\r\n      <workItem from=\"1693179629084\" duration=\"13759000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision cd1b70c9b946f9eb73afb297c7b761e19f02d4e0)
++++ b/.idea/workspace.xml	(date 1693199561889)
+@@ -4,18 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7fabc243-5f8d-42ac-8c7b-f12b32e6cf92" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ressources/css/banner/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/banner/banner.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ressources/css/buttons/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/buttons/buttons.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ressources/css/details/details.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/details/details.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ressources/css/faq/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/faq/faq.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ressources/css/info__rgpd/info__rgpd.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/info__rgpd/info__rgpd.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ressources/css/our__team/our__team.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/our__team/our__team.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ressources/css/stats/stats.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/stats/stats.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ressources/css/testimonials/testimonials.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/testimony/testimony.css" afterDir="false" />
+-    </list>
++    <list default="true" id="7fabc243-5f8d-42ac-8c7b-f12b32e6cf92" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -129,7 +118,7 @@
+       <workItem from="1693072793446" duration="21620000" />
+       <workItem from="1693160655846" duration="4133000" />
+       <workItem from="1693167921276" duration="192000" />
+-      <workItem from="1693179629084" duration="13759000" />
++      <workItem from="1693179629084" duration="14018000" />
+     </task>
+     <servers />
+   </component>
+Index: ressources/css/media__queries/media__queries.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/* MEDIA QUERIES */\r\n\r\n/*MQ Mobile*/\r\n@media (max-width: 480px) {\r\n    body {\r\n        display: flex;\r\n        flex-direction: row;\r\n        font-size: 0.75rem;\r\n        justify-content: center;\r\n\r\n    }\r\n\r\n    figure {\r\n        display: flex;\r\n        margin: auto;\r\n        padding: 0;\r\n        width: 70%;\r\n        height: 70%;\r\n    }\r\n\r\n    .right__group {\r\n        display: none;\r\n        visibility: hidden;\r\n    }\r\n\r\n    .banner__inner__right section {\r\n        display: none;\r\n        visibility: hidden;\r\n    }\r\n\r\n    .btn__bi__right{\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        padding: 10px;\r\n        margin: auto;\r\n        font-size: 0.75rem;\r\n    }\r\n\r\n    .btn__bi__left {\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        padding: 10px;\r\n        margin: auto;\r\n        font-size: 0.75rem;\r\n    }\r\n\r\n    .banner__inner__left{\r\n        padding-bottom: 60px;\r\n    }\r\n    .menu__burger{\r\n        display: flex;\r\n        color: black;\r\n    }\r\n\r\n    .text__left a{\r\n        display: none;\r\n        visibility: hidden;\r\n        margin: 0;\r\n    }\r\n\r\n    .text__left {\r\n        display: none;\r\n        visibility: hidden;\r\n        margin: 0;\r\n    }\r\n\r\n\r\n}\r\n\r\n\r\n\r\n\r\n/*MQ Tablettes*/\r\n@media (max-width: 768px) {\r\n    body {\r\n        font-size: 0.875rem;\r\n    }\r\n\r\n    .right__group {\r\n        display: none;\r\n        visibility: hidden;\r\n    }\r\n\r\n    .banner__inner__right section {\r\n        display: none;\r\n        visibility: hidden;\r\n    }\r\n\r\n    .banner__inner__left{\r\n        padding-bottom: 60px;\r\n    }\r\n    .menu__burger{\r\n        display: flex;\r\n        color: black;\r\n    }\r\n\r\n    .text__left a{\r\n        display: none;\r\n        visibility: hidden;\r\n        margin: 0;\r\n    }\r\n\r\n    .text__left {\r\n        display: none;\r\n        visibility: hidden;\r\n        margin: 0;\r\n    }\r\n\r\n}\r\n\r\n\r\n\r\n\r\n/*MQ Desktop*/\r\n\r\n    @media (max-width: 1540px) {\r\n    .banner__inner__right section {\r\n        display: none;\r\n        visibility: hidden;\r\n    }\r\n\r\n    .banner__inner__left{\r\n        display: flex;\r\n        width: 100%;\r\n        align-items: center;\r\n        justify-content: center;\r\n        text-align: center;\r\n    }\r\n\r\n    .banner__inner__left h1 {\r\n        display: flex;\r\n        font-size: 1.75rem;\r\n        align-items: center;\r\n        justify-content: center;\r\n    }\r\n\r\n        .banner__inner__left{\r\n            padding-bottom: 60px;\r\n        }\r\n\r\n        .header__navigation {\r\n            font-size: 0.875rem;\r\n            display: none;\r\n        }\r\n\r\n        .middle__group figure {\r\n            width: 70%;\r\n        }\r\n\r\n        .text__left a{\r\n            display: none;\r\n        }\r\n\r\n        .right__text a{\r\n            display: none;\r\n        }\r\n\r\n        .right__group{\r\n            display: none;\r\n        }\r\n\r\n        .menu__burger{\r\n            display: flex;\r\n            align-items: center;\r\n            justify-content: start;\r\n            color: #00EA99;\r\n        }\r\n\r\n        .left__group{\r\n            display: flex;\r\n        }\r\n\r\n        .menu__burger{\r\n            display: flex;\r\n            align-items: center;\r\n            justify-content: center;\r\n            padding: 0;\r\n            align-self: center;\r\n        }\r\n\r\n        .menu__burger svg{\r\n            display: flex;\r\n            align-items: center;\r\n            justify-content: center;\r\n            padding: 0;\r\n            align-self: center;\r\n            margin: auto;\r\n            width: 100%;\r\n            height: 100%;\r\n        }\r\n\r\n        .text__left a{\r\n            display: none;\r\n            visibility: hidden;\r\n            margin: 0;\r\n        }\r\n\r\n        .text__left {\r\n            display: none;\r\n            visibility: hidden;\r\n            margin: 0;\r\n        }\r\n\r\n\r\n    }\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ressources/css/media__queries/media__queries.css b/ressources/css/media__queries/media__queries.css
+--- a/ressources/css/media__queries/media__queries.css	(revision cd1b70c9b946f9eb73afb297c7b761e19f02d4e0)
++++ b/ressources/css/media__queries/media__queries.css	(date 1693199764839)
+@@ -1,207 +1,12 @@
+-/* MEDIA QUERIES */
+-
+-/*MQ Mobile*/
+ @media (max-width: 480px) {
+-    body {
+-        display: flex;
+-        flex-direction: row;
+-        font-size: 0.75rem;
+-        justify-content: center;
+-
+-    }
+-
+-    figure {
+-        display: flex;
+-        margin: auto;
+-        padding: 0;
+-        width: 70%;
+-        height: 70%;
+-    }
+-
+-    .right__group {
+-        display: none;
+-        visibility: hidden;
+-    }
+-
+-    .banner__inner__right section {
+-        display: none;
+-        visibility: hidden;
+-    }
+-
+-    .btn__bi__right{
+-        display: flex;
+-        align-items: center;
+-        justify-content: center;
+-        padding: 10px;
+-        margin: auto;
+-        font-size: 0.75rem;
+-    }
+-
+-    .btn__bi__left {
+-        display: flex;
+-        align-items: center;
+-        justify-content: center;
+-        padding: 10px;
+-        margin: auto;
+-        font-size: 0.75rem;
+-    }
+-
+-    .banner__inner__left{
+-        padding-bottom: 60px;
+-    }
+-    .menu__burger{
+-        display: flex;
+-        color: black;
+-    }
+-
+-    .text__left a{
+-        display: none;
+-        visibility: hidden;
+-        margin: 0;
+-    }
+-
+-    .text__left {
+-        display: none;
+-        visibility: hidden;
+-        margin: 0;
+-    }
+-
+-
+-}
+-
+-
+-
+-
+-/*MQ Tablettes*/
+-@media (max-width: 768px) {
+-    body {
+-        font-size: 0.875rem;
+-    }
+-
+-    .right__group {
+-        display: none;
+-        visibility: hidden;
+-    }
+-
+-    .banner__inner__right section {
+-        display: none;
+-        visibility: hidden;
+-    }
+-
+-    .banner__inner__left{
+-        padding-bottom: 60px;
+-    }
+-    .menu__burger{
+-        display: flex;
+-        color: black;
+-    }
+-
+-    .text__left a{
+-        display: none;
+-        visibility: hidden;
+-        margin: 0;
+-    }
+-
+-    .text__left {
+-        display: none;
+-        visibility: hidden;
+-        margin: 0;
+-    }
+-
+-}
+-
+-
+-
+-
+-/*MQ Desktop*/
+-
+-    @media (max-width: 1540px) {
+-    .banner__inner__right section {
+-        display: none;
+-        visibility: hidden;
+-    }
+-
+-    .banner__inner__left{
+-        display: flex;
+-        width: 100%;
+-        align-items: center;
+-        justify-content: center;
+-        text-align: center;
+-    }
+-
+-    .banner__inner__left h1 {
+-        display: flex;
+-        font-size: 1.75rem;
+-        align-items: center;
+-        justify-content: center;
+-    }
+-
+-        .banner__inner__left{
+-            padding-bottom: 60px;
+-        }
+-
+-        .header__navigation {
+-            font-size: 0.875rem;
+-            display: none;
+-        }
+-
+-        .middle__group figure {
+-            width: 70%;
+-        }
+-
+-        .text__left a{
+-            display: none;
+-        }
+-
+-        .right__text a{
+-            display: none;
+-        }
+-
+-        .right__group{
+-            display: none;
+-        }
+-
+-        .menu__burger{
+-            display: flex;
+-            align-items: center;
+-            justify-content: start;
+-            color: #00EA99;
+-        }
+-
+-        .left__group{
+-            display: flex;
+-        }
+-
+-        .menu__burger{
+-            display: flex;
+-            align-items: center;
+-            justify-content: center;
+-            padding: 0;
+-            align-self: center;
+-        }
+-
+-        .menu__burger svg{
+-            display: flex;
+-            align-items: center;
+-            justify-content: center;
+-            padding: 0;
+-            align-self: center;
+-            margin: auto;
+-            width: 100%;
+-            height: 100%;
+-        }
+-
+-        .text__left a{
+-            display: none;
+-            visibility: hidden;
+-            margin: 0;
+-        }
+-
+-        .text__left {
+-            display: none;
+-            visibility: hidden;
+-            margin: 0;
+-        }
+-
+-
+-    }
++    /* Styles spécifiques pour les petits écrans */
++}
++@media (max-width: 768px) and (orientation: landscape) {
++    /* Styles spécifiques pour les petits écrans en mode paysage */
++}
++@media (min-width: 768px) and (max-width: 1024px) {
++    /* Styles spécifiques pour les tablettes */
++}
++@media (min-width: 1400px) {
++    /* Styles spécifiques pour les écrans plus larges */
++}
