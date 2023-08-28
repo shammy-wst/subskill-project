@@ -7,37 +7,14 @@
     <list default="true" id="7fabc243-5f8d-42ac-8c7b-f12b32e6cf92" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/assets/arrow_go.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/assets/arrow_left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/assets/arrow_right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/assets/burger-menu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/assets/chervon_down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/assets/item1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/assets/linkedin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/assets/lock-file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/assets/newsletter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/assets/play.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/assets/play_btn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/assets/testimonials.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/assets/trial.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/banner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/buttons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/details.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/faq.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/free__trial.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/info-rgpd.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/latest-articles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/loader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/media-queries.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/newsletter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/our_team.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/separator.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/stats.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/testimonials.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/banner/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/banner/banner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/buttons/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/buttons/buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/details/details.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/details/details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/faq/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/faq/faq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/info__rgpd/info__rgpd.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/info__rgpd/info__rgpd.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/our__team/our__team.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/our__team/our__team.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/stats/stats.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/stats/stats.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/testimonials/testimonials.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/testimony/testimony.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +129,7 @@
       <workItem from="1693072793446" duration="21620000" />
       <workItem from="1693160655846" duration="4133000" />
       <workItem from="1693167921276" duration="192000" />
-      <workItem from="1693179629084" duration="6568000" />
+      <workItem from="1693179629084" duration="13759000" />
     </task>
     <servers />
   </component>

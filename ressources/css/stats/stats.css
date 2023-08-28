@@ -34,26 +34,35 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 60%;
+    width: 100%;
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
 
-
-.under__banner__content button{
+.statistiques dl dt{
     display: flex;
-    border: none;
-    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    background-color: #00EA99;
-    text-decoration: none;
-    font-weight: 600;
-    cursor: pointer;
-    box-sizing: border-box;
-    margin: 0 0 0 0;
-    white-space: nowrap;
-    height: 50px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.statistiques dl dt div{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.statistiques dl dt div h1{
+    padding: 0;
+    margin: 0;
+}
+
+.statistiques dl dt div h2{
+    font-weight: normal;
+    font-size: 14px;
 }

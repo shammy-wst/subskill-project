@@ -91,3 +91,7 @@ video {
 .play__button:hover {
     transform: translate(-50%, -50%) scale(1.05);
 }
+
+.free__trial__left__content button{
+    margin : 0;
+}

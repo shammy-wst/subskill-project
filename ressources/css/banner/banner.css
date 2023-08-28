@@ -104,13 +104,13 @@
 }
 
 /* Style de l'image dans la partie droite de la bannière */
-.banner__content__right section figure {
+.banner__content__right div figure {
     width: 120%;
     /* Largeur légèrement augmentée pour déborder */
 }
 
 /* Style de l'image dans la partie droite de la bannière */
-.banner__content__right section figure img {
+.banner__content__right div figure img {
     width: 100%;
     /* Image occupant toute la largeur */
     height: auto;
