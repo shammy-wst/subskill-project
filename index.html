@@ -22,25 +22,36 @@
     <link rel="stylesheet" href="ressources/css/newsletter/newsletter.css">
     <link rel="stylesheet" href="ressources/css/footer/footer.css">
     <link rel="stylesheet" href="ressources/css/media__queries/media__queries.css">
+    <link rel="stylesheet" href="ressources/css/our__team/our__team__modal.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Mission RGPD</title>
-    <script src="ressources/js/header.js"></script>
-    <script src="ressources/js/video.js"></script>
-    <script src="ressources/js/loader.js"></script>
-    <script src="ressources/js/dropdown.js"></script>
 </head>
 <body>
-<div style="display:none;" class="our__team__modal">
+<div class="our__team__modal">
     <div class="our__team__modal__wrapper">
-        <figure>
-            <img src="ressources/images/female.png" alt="female">
-        </figure>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-        </p>
-        <h3>Nom prenom</h3>
+        <div class="modal__img">
+            <figure>
+                <img src="ressources/images/female.png" alt="female">
+            </figure>
+        </div>
+        <div class="modal__txt">
+            <figure class="quote">
+                <img src="ressources/css/our__team/assets/quote.png" alt="quote">
+            </figure>
+            <p class="content__quote">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <h3>Nom prenom</h3>
+        </div>
+        <div class="modal__close">
+            <figure>
+                <a>
+                    <img src="ressources/css/our__team/assets/close.png" alt="close">
+                </a>
+            </figure>
+        </div>
     </div>
 </div>
 <div class="menu" id="menu">
@@ -815,5 +826,11 @@
         </div>
     </div>
 </footer>
+    <script src="ressources/js/header.js"></script>
+    <script src="ressources/js/video.js"></script>
+    <script src="ressources/js/loader.js"></script>
+    <script src="ressources/js/dropdown.js"></script>
+    <script src="ressources/js/modalOnClick.js"></script>
 </body>
+
 </html>

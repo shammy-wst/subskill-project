@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fabc243-5f8d-42ac-8c7b-f12b32e6cf92" name="Changes" comment="MQ updt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -42,7 +43,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -137,7 +138,10 @@
       <workItem from="1693167921276" duration="192000" />
       <workItem from="1693179629084" duration="13759000" />
       <workItem from="1693248873516" duration="4309000" />
-      <workItem from="1693257329125" duration="22594000" />
+      <workItem from="1693257329125" duration="22696000" />
+      <workItem from="1693292705085" duration="3929000" />
+      <workItem from="1693328666746" duration="3870000" />
+      <workItem from="1693342952669" duration="2395000" />
     </task>
     <task id="LOCAL-00001" summary="MQ updt">
       <option name="closed" value="true" />
