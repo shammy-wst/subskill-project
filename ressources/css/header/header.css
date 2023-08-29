@@ -132,7 +132,7 @@ header nav ul li a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: 500%;
     padding: 0;
     margin: 0;
     align-items: center;
@@ -308,4 +308,221 @@ header nav ul li a {
 .login{
     text-decoration: none;
     color: #302E44;
+}
+
+.menu{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #302E44;
+    position: absolute;
+    height: 100%;
+    width: 35%;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu.active {
+    display: flex;
+}
+
+.menu__header{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    padding: 20px;
+}
+
+.menu__inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.go__back{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.menu__inside a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__inside p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__inside figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.button__green{
+    display: flex;
+    padding: 20px;
+    border : #302E44 1px solid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: #00EA99;
+    text-decoration: none;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    margin: 0;
+}
+
+.button__black{
+    display: flex;
+    padding: 20px;
+    border : #ffffff 1px solid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: #302E44;
+    text-decoration: none;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    margin: 0;
+    color: white;
+}
+
+.menu__buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.menu__inside svg{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.menu__login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.menu__login a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__logo figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__close{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__close figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.page-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur semi-transparente pour le fond d'arrière-plan */
+    z-index: 999; /* Placez-le au-dessus de tout le contenu */
+}
+
+.page-overlay.active {
+    display: block;
+}
+
+.go__back{
+    display: none;
 }

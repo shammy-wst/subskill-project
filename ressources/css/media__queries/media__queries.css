@@ -606,6 +606,17 @@
         width: 100%;
         gap: 20px;
     }
+
+    /*MENU DEROULANT*/
+
+    .menu{
+        width: 100%;
+    }
+
+
+
+
+
 }
 
 @media (max-width: 1415px) {
@@ -661,3 +672,4 @@
         width: 60%;
     }
 }
+
