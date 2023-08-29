@@ -169,6 +169,7 @@ header nav ul li a {
     margin: 0;
     padding: 0;
     gap: 20px;
+
 }
 
 .header__login svg {
@@ -297,4 +298,14 @@ header nav ul li a {
     font-weight: normal;
     font-size: 14px;
     width: 70%;
+}
+
+.header__contact__number{
+    text-decoration: none;
+    color: #302E44;
+}
+
+.login{
+    text-decoration: none;
+    color: #302E44;
 }
