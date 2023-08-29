@@ -48,6 +48,8 @@
     height: 241px;
     justify-content: center;
     padding: 20px;
+    transform: translateY(0);
+    transition: transform 0.5s ease-in-out;
 }
 
 .FAQ__CARD__2{
@@ -61,6 +63,8 @@
     justify-content: center;
     padding: 20px;
     color: white;
+    transform: translateY(0);
+    transition: transform 0.5s ease-in-out;
 }
 
 .FAQ__CARD__3{
@@ -73,6 +77,8 @@
     height: 241px;
     justify-content: center;
     padding: 20px;
+    transform: translateY(0);
+    transition: transform 0.5s ease-in-out;
 }
 
 .faq_cards__content{
@@ -158,3 +164,15 @@
     gap: 50px;
 }
 
+.FAQ__CARD__1:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s ease-in-out;
+}
+.FAQ__CARD__2:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s ease-in-out;
+}
+.FAQ__CARD__3:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s ease-in-out;
+}

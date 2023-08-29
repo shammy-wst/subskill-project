@@ -1,6 +1,6 @@
 function playPause() {
-    var video = document.getElementById("video_stock");
-    var button = document.querySelector(".play__button");
+    let video = document.getElementById("video_stock");
+    let button = document.querySelector(".play__button");
 
     if (video.paused) {
         video.play();
@@ -12,8 +12,8 @@ function playPause() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    var video = document.getElementById("video_stock");
-    var playButton = document.querySelector(".play-button");
+    let video = document.getElementById("video_stock");
+    let playButton = document.querySelector(".play-button");
 
     video.addEventListener("click", function() {
         if (video.paused) {

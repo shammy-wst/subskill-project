@@ -148,3 +148,13 @@
 .a__card h2:hover{
     text-decoration: underline;
 }
+
+.a__card:hover{
+    transform: translateY(-20px);
+    transition: transform 0.5s ease-in-out;
+}
+
+.a__card{
+    transform: translateY(0);
+    transition: transform 0.5s ease-in-out;
+}

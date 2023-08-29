@@ -1,4 +1,4 @@
-@media (max-width: 640px) {
+@media (max-width: 1024px) {
     /*HEADER SECTION*/
     .header {
         width: 100%;
@@ -608,12 +608,56 @@
     }
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
-    /* Styles spécifiques pour les petits écrans en mode paysage */
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-    /* Styles spécifiques pour les tablettes */
-}
-@media (min-width: 1400px) {
-    /* Styles spécifiques pour les écrans plus larges */
+@media (max-width: 1415px) {
+    /*TABLLETE*/
+    .header {
+        display: flex;
+        flex-direction: row;
+        height: 8%;
+    }
+
+    .menu__burger {
+        display: flex;
+    }
+
+    .header__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .header__left {
+        display: none;
+    }
+
+    .header__right {
+        display: none;
+    }
+
+    .header__middle img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__middle figure {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card__detail {
+        width: 90%;
+    }
+
+    .free__trial__left__content button {
+        width: 60%;
+    }
 }

@@ -7,8 +7,11 @@
     <list default="true" id="7fabc243-5f8d-42ac-8c7b-f12b32e6cf92" name="Changes" comment="MQ updt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/css/global/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/global/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/faq/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/faq/faq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/latest__articles/latest__articles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/latest__articles/latest__articles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ressources/css/media__queries/media__queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/media__queries/media__queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/our__team/our__team.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/our__team/our__team.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/js/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/js/video.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +142,7 @@
       <workItem from="1693167921276" duration="192000" />
       <workItem from="1693179629084" duration="13759000" />
       <workItem from="1693248873516" duration="4309000" />
-      <workItem from="1693257329125" duration="10526000" />
+      <workItem from="1693257329125" duration="12831000" />
     </task>
     <task id="LOCAL-00001" summary="MQ updt">
       <option name="closed" value="true" />

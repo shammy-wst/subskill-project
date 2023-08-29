@@ -49,6 +49,8 @@
     flex-direction: column;
     position: relative;
     z-index: 0;
+    transform: translateY(0);
+    transition: transform 0.5s ease-in-out;
 }
 
 .team__card h3{
@@ -71,6 +73,8 @@
     justify-content: center;
     align-items: center;
     visibility: hidden;
+    transform: translateY(0);
+    transition: transform 0.5s ease-in-out;
 }
 
 .see__testimony a{
@@ -78,6 +82,7 @@
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
+    transition: transform 0.2s ease-in-out;
 }
 
 .team__bot__card{
@@ -88,7 +93,11 @@
 }
 
 .team__card:hover{
+    transform: translateY(-20px);
+    transition: transform 0.5s ease-in-out;
     .see__testimony{
         visibility: visible;
+        transform: translateY(0);
+        transition: transform 0.5s ease-in-out;
     }
 }
