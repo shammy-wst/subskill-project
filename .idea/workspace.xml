@@ -7,8 +7,17 @@
     <list default="true" id="7fabc243-5f8d-42ac-8c7b-f12b32e6cf92" name="Changes" comment="MQ updt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/banner/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/banner/banner.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ressources/css/details/details.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/details/details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/faq/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/faq/faq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/free__trial/free__trial.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/free__trial/free__trial.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ressources/css/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/info__rgpd/info__rgpd.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/info__rgpd/info__rgpd.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/latest__articles/latest__articles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/latest__articles/latest__articles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/media__queries/media__queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/media__queries/media__queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/newsletter/newsletter.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/newsletter/newsletter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/our__team/our__team.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/our__team/our__team.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/stats/stats.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/stats/stats.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ressources/css/testimony/testimony.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/testimony/testimony.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +154,7 @@
       <workItem from="1693292705085" duration="3929000" />
       <workItem from="1693328666746" duration="3870000" />
       <workItem from="1693342952669" duration="2395000" />
-      <workItem from="1693368568535" duration="6775000" />
+      <workItem from="1693368568535" duration="10654000" />
     </task>
     <task id="LOCAL-00001" summary="MQ updt">
       <option name="closed" value="true" />

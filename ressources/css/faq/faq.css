@@ -24,8 +24,9 @@
     align-items: center;
 }
 
-.FAQ__TOP__TXT{
-    font-size: 20px;
+.FAQ__TOP__TXT p{
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .FAQ__CARDS{

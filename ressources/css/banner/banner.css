@@ -32,9 +32,9 @@
 }
 
 /* Style du titre principal */
-.banner__content__left h1 {
-    font-size: 3rem;
-    font-weight: 600;
+.banner__content__left h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
     margin: 0;
     padding: 0;
 }
@@ -71,18 +71,21 @@
 }
 
 /* Style du lien à l'intérieur du bouton */
-.right__video__button a {
+.right__video__button{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     color: white;
     text-decoration: none;
+    transition: transform 0.2s ease-in-out; /* Ajoute une transition fluide */
 }
 
 /* Style au survol du lien à l'intérieur du bouton */
-.right__video__button:hover a {
+.right__video__button:hover{
     text-decoration: underline;
+    transform: scale(1.05); /* Fait grossir légèrement */
+    transition: transform 0.2s ease-in-out; /* Ajoute une transition fluide */
 }
 
 /* Style de l'icône à l'intérieur du bouton */

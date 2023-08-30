@@ -80,6 +80,29 @@ header {
     white-space: nowrap; /* Empêcher le renvoi à la ligne du texte */
 }
 
+.header__left__text li a{
+    transition: transform 0.2s ease-in-out; /* Ajoute une transition fluide */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.header__left__text li a:hover{
+   text-decoration: none;
+    transform: scale(1.05); /* Fait grossir légèrement */
+    transition: transform 0.2s ease-in-out; /* Ajoute une transition fluide */
+    background: #00EA99;
+    color: black;
+    padding: 2px;
+    border-radius: 5px;
+
+}
+
+
+
 .header__left__text a {
     display: flex;
     flex-direction: row;
@@ -329,7 +352,21 @@ header nav ul li a {
 .header__contact__number{
     text-decoration: none;
     color: #302E44;
+    transition: transform 0.2s ease-in-out; /* Ajoute une transition fluide */
 }
+
+
+.header__contact__number:hover{
+    text-decoration: none;
+    color: #302E44;
+    transform: scale(1.05); /* Fait grossir légèrement */
+    transition: transform 0.2s ease-in-out; /* Ajoute une transition fluide */
+}
+
+.header__contact__number:hover span{
+    color: #00EA99;
+}
+
 
 .login{
     text-decoration: none;

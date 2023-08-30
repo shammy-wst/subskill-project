@@ -145,13 +145,13 @@
         flex-direction: column;
     }
 
-    .main__text h1 {
+    .main__text h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: 0;
-        font-size: 35px;
+        font-size: 2.25rem;
     }
 
     .all__cards {
@@ -202,6 +202,16 @@
         width: 70%;
     }
 
+    .left__info__rgpd h2{
+        font-size: 2.25rem;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
     .image__lock__wrapper {
         display: none;
     }
@@ -225,6 +235,15 @@
         width: 80%;
     }
 
+    .free__trial__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 110px 100px 110px 100px;
+        margin: 0;
+    }
+
     .free__trial__right__content {
         display: none;
     }
@@ -238,9 +257,22 @@
         gap: 30px;
     }
 
-    .free__trial__left__content h1 span {
+    .free__trial__left__content h2 span {
         color: #00EA99;
     }
+
+    .free__trial__left__content h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2.25rem;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
 
     /*TESTIMONY SECTION*/
     .testimony {
@@ -292,10 +324,15 @@
         width: 100%;
     }
 
-    .text__left__cw h1 {
+    .text__left__cw h2 {
         margin: 0;
-        font-size: 40px;
+        font-size: 2.25rem;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .testimony__right__content {
@@ -319,8 +356,24 @@
         gap: 50px;
     }
 
+    .right__text__area__tst{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
     .right__text__area__tst figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 0;
+        padding: 0;
+    }
+
+    .right__text__area__tst figure img{
+        display: flex;
+        margin: 0;
+        padding: 0;
     }
 
     .buttons__tst {
@@ -357,6 +410,11 @@
         margin: 0;
         padding: 0;
         width: 80%;
+    }
+
+    .FAQ__TOP__TXT p{
+        font-size: 2.25rem;
+        text-align: center;
     }
 
     .FAQ__TOP__CONT {
@@ -433,6 +491,12 @@
         text-align: center;
     }
 
+    .article__title h2{
+        font-size: 2.25rem;
+        text-align: center;
+        width: 100%;
+    }
+
     .article__cards {
         display: flex;
         flex-direction: column;
@@ -484,6 +548,11 @@
         padding-top: 100px;
         width: 80%;
     }
+
+    .our__team__wrapper p{
+        font-size: 2.25rem;
+    }
+
 
     .see__testimony {
         display: none;
@@ -540,6 +609,10 @@
         display: flex;
         flex-direction: column;
         width: 80%;
+    }
+
+    .nw__left__content h2{
+        font-size: 2.25rem;
     }
 
     /*FOOTER*/

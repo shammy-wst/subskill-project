@@ -18,7 +18,15 @@
     flex-direction: column;
 }
 
-.left__info__rgpd h1 span{
+.left__info__rgpd h2{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+.left__info__rgpd h2 span{
     color: #00EA99;
 }
 
