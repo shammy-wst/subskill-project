@@ -56,6 +56,15 @@
     /* Marge en haut */
 }
 
+button:hover{
+    transform: scale(1.05); /* Fait grossir légèrement */
+    transition: transform 0.2s ease-in-out; /* Ajoute une transition fluide */
+}
+
+button{
+    transition: transform 0.2s ease-in-out; /* Ajoute une transition fluide */
+}
+
 /* Style du bouton pour la vidéo */
 .right__video__button {
     display: flex;

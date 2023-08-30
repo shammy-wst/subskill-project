@@ -429,6 +429,7 @@ header nav ul li a {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 20px;
+    visibility: hidden;
 }
 
 .menu__inside a{
