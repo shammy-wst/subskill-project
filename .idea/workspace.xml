@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7fabc243-5f8d-42ac-8c7b-f12b32e6cf92" name="Changes" comment="MQ updt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/details/details.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/details/details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/media__queries/media__queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/media__queries/media__queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/css/our__team/our__team__modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/css/our__team/our__team__modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/js/modalOnClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/js/modalOnClick.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +145,7 @@
       <workItem from="1693292705085" duration="3929000" />
       <workItem from="1693328666746" duration="3870000" />
       <workItem from="1693342952669" duration="2395000" />
+      <workItem from="1693368568535" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="MQ updt">
       <option name="closed" value="true" />

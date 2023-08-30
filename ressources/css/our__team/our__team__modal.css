@@ -33,9 +33,10 @@
     align-items: flex-start;
     color: #302E44;
     opacity: 1;
-    margin: 0 auto;
+    margin: 0;
     gap: 20px;
-    padding: 88px;
+    padding: 20px;
+    line-height: 25px;
 }
 
 .modal__txt p{

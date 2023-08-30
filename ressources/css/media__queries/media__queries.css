@@ -613,6 +613,31 @@
         width: 100%;
     }
 
+/*MODAL*/
+
+    .our__team__modal figure{
+        display: none;
+    }
+
+    .modal__img{
+        display: none;
+    }
+
+    .content__quote{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal__txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: #302E44;
+        opacity: 1;
+        margin: 0 auto;
+    }
+
 
 
 
@@ -670,6 +695,19 @@
 
     .free__trial__left__content button {
         width: 60%;
+    }
+
+    .our__team__modal figure{
+        display: none;
+    }
+
+    .modal__img{
+        display: none;
+    }
+
+    .content__quote{
+        display: flex;
+        flex-direction: column;
     }
 }
 
