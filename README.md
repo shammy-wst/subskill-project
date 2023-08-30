@@ -1,8 +1,5 @@
 
 # Subskill - Interview Test
-
-Certainly! Here's the summary with the "we" references removed:
-
 "As a solo developer, I successfully executed a project for Subskill, which revolved around converting a Figma design into a fully functional webpage. The main goal was to faithfully replicate the Figma template using HTML and CSS, ensuring a smooth integration of design and development. Every effort was made to closely match the layout, typography, colors, and visual elements.
 
 Throughout the project, I followed a systematic approach to extract design details from Figma and translate them into well-structured HTML elements. CSS was utilized to apply precise styling, guaranteeing consistency with the original design. Additionally, I implemented responsive design principles to ensure the webpage's visual appeal across various screen sizes and devices.
@@ -22,6 +19,15 @@ By adhering closely to the Figma template, I successfully delivered a webpage th
 - Mobile and Tablet version (Was easier)
 
 - Javascript for animations and modals
+
+- Debug using browser console + w3c
+
+
+## Tech Stack
+
+**Client:** HTMLS5 , CSS , JavaScript
+
+**Server:** None
 
 
 ## Screenshots
