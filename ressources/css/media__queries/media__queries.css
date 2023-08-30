@@ -1,4 +1,20 @@
 @media (max-width: 1024px) {
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
     /*HEADER SECTION*/
     .header {
         width: 100%;

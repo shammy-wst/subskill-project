@@ -419,7 +419,7 @@ header nav ul li a {
     justify-content: flex-start;
     align-items: flex-start;
     height: 100%;
-    gap: 20px;
+    gap: 50px;
     padding: 20px;
 }
 
@@ -457,6 +457,16 @@ header nav ul li a {
     align-items: center;
     padding: 0;
     margin: 0;
+}
+
+.mobile__proper__navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 50px;
 }
 
 .button__green{

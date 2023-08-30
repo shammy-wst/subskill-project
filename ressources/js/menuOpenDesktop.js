@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const navigationContainers = document.querySelectorAll('.header__proper__navigation .nav-link-container');
     const menus = document.querySelectorAll('.open__menu');
+    console.log("JavaScriptMOBILE is loaded and running!");
 
     navigationContainers.forEach(container => {
         const link = container.querySelector('a');
