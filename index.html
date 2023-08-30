@@ -29,6 +29,7 @@
     <title>Mission RGPD</title>
 </head>
 <body>
+<!--Modal de selection de cartes-->
 <div class="our__team__modal">
     <div class="our__team__modal__wrapper">
         <div class="modal__img">
@@ -54,6 +55,7 @@
         </div>
     </div>
 </div>
+<!--Menu de roulant mobile et tablettes-->
 <div class="menu" id="menu">
         <div class="menu__header">
             <div id="menu__close" class="menu__close">
@@ -131,6 +133,7 @@
             <a href="#">Se connecter</a>
         </div>
     </div>
+<!--Ecran de chargement (pour rendre l'UX plus agreeable)-->
 <div class="loader">
     <div class="loader">
         <div class="spinner"></div>
@@ -141,6 +144,7 @@
         </div>
     </div>
 </div>
+<!--Header + Navigation-->
 <header id="header" class="header">
     <div class="header__wrapper">
         <div class="header__content">
@@ -159,75 +163,248 @@
                     <!-- Liste des liens de navigation -->
                     <ul class="header__proper__navigation">
                         <li>
-                            <a href="#">Solutions</a>
-                            <img src="ressources/css/header/assets/chervon_down.svg" alt="arrow">
+                            <div class="nav-link-container">
+                                <a data-target="menu1" href="#" >Solutions</a>
+                                <img src="ressources/css/header/assets/chervon_down.svg" alt="arrow">
+                                <div class="open__menu" id="menu1">
+                                    <div class="open__menu__content">
+                                        <div class="open__menu__txt">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Centre de formation</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Camping</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Associations</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ressources Humaines</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="open__menu__txt">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Experts comptables</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">E-Commerce</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Immobilier</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Conseil</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <a href="#">Services</a>
-                            <img src="ressources/css/header/assets/chervon_down.svg" alt="arrow">
+                            <div class="nav-link-container">
+                                <a data-target="menu2" href="#">Services</a>
+                                <img src="ressources/css/header/assets/chervon_down.svg" alt="arrow">
+                                <div class="open__menu" id="menu2">
+                                    <div class="open__menu__content">
+                                        <div class="open__menu__txt">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Accompagnement</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Formation OPCO</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Assistance DPO</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Obtention du label RGPD engage</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="open__menu__txt">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Audit site internet</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Diagnostic RGPD</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <a href="#">Entreprise</a>
-                            <img src="ressources/css/header/assets/chervon_down.svg" alt="arrow">
+                            <div class="nav-link-container">
+                                <a data-target="menu3" href="#">Entreprise</a>
+                                <img src="ressources/css/header/assets/chervon_down.svg" alt="arrow">
+                                <div class="open__menu" id="menu3">
+                                    <div class="open__menu__content">
+                                        <div class="open__menu__txt">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Qui sommes-nous?</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Devenir partenaire</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Recrutement</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Nos clients</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="open__menu__txt">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Notre equipe</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Nos articles</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">FAQ</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <a href="#">Resources</a>
-                            <img src="ressources/css/header/assets/chervon_down.svg" alt="arrow">
+                            <div class="nav-link-container">
+                                <a data-target="menu4" href="#">Resources</a>
+                                <img src="ressources/css/header/assets/chervon_down.svg" alt="arrow">
+                                <div class="open__menu" id="menu4">
+                                    <div class="open__menu__content">
+                                        <div class="open__menu__txt">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Livres blancs</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Webinaires</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Fiches pratiques</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">FAQ</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="open__menu__txt">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Portfolio</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Linked-In</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Et autre chose !</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <a href="#">Blog</a>
-                            <img src="ressources/css/header/assets/chervon_down.svg" alt="arrow">
+                            <div class="nav-link-container">
+                                <a data-target="menu5" href="#">Blog</a>
+                                <img src="ressources/css/header/assets/chervon_down.svg" alt="arrow">
+                                <div class="open__menu" id="menu5">
+                                    <div class="open__menu__content">
+                                        <div class="open__menu__txt">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Il n'y avais rien sur le FIGMA</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Donc j'ecris des trucs</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Meme si il n'y a rien..</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ici il y'aurait eu un lien interessant..</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="open__menu__txt">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">La aussi !</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Et peut etre la !</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">C'est fini...</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Aurevoir !</a>
+                                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </li>
                     </ul>
 
                     <!-- ... Autres éléments de navigation ... -->
                 </nav>
-                <!-- Menu dropdown ouvert -->
-                <div class="open__menu">
-                    <div class="open__menu__content">
-                        <div class="open__menu__txt">
-                            <ul>
-                                <li>
-                                    <a href="#">Centre de formation</a>
-                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                                </li>
-                                <li>
-                                    <a href="#">Camping</a>
-                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                                </li>
-                                <li>
-                                    <a href="#">Associations</a>
-                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                                </li>
-                                <li>
-                                    <a href="#">Ressources Humaines</a>
-                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="open__menu__txt">
-                            <ul>
-                                <li>
-                                    <a href="#">Experts comptables</a>
-                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                                </li>
-                                <li>
-                                    <a href="#">E-Commerce</a>
-                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                                </li>
-                                <li>
-                                    <a href="#">Immobilier</a>
-                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                                </li>
-                                <li>
-                                    <a href="#">Conseil</a>
-                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
             </nav>
                 <!-- Groupe du milieu -->
                 <div class="header__middle">
@@ -259,6 +436,7 @@
                     </button>
                 </div>
             </div>
+            <!-- Bouton de menu burger -->
             <div class="menu__burger" id="burgerBtn">
                 <figure>
                     <a href="#">
@@ -268,8 +446,15 @@
             </div>
         </div>
     </div>
+    <!-- Menu dropdown ouvert -->
+
+
+
+
+
 </header>
 <main>
+<!--Banner (C'est la premiere chose que vous voyez a l'écran)-->
     <section class="banner">
         <div class="banner__content">
             <div class="banner__content__left">
@@ -296,7 +481,9 @@
             </div>
         </div>
     </section>
+<!--Separate (Ligne blanche)-->
     <div class="separator__1"></div>
+<!--Stats (Chiffres clés)-->
     <section class="stats">
         <div class="under__banner">
             <div class="under__banner__content">
@@ -326,8 +513,9 @@
             </div>
         </div>
     </section>
-    <article class="details">
-        <div class="article__wrapper">
+<!--Details (Cartes des prestations)-->
+    <section class="details">
+        <div class="section__wrapper">
             <div class="main__text">
                 <h1>Nos prestations pensées <span class="for__you">pour vous</span>
                 </h1>
@@ -388,7 +576,7 @@
                 </div>
             </div>
         </div>
-    </article>
+    </section>
     <article class="info__rgpd">
         <div class="info__rgpd__wrapper">
             <div class="left__info__rgpd">
@@ -430,7 +618,7 @@
             <div class="free__trial__wrapper">
                 <div class="free__trial__content">
                     <div class="free__trial__left__content">
-                        <h1>Testez Mission RGPD grâce à notre <span> essai gratuit</span> </h1>
+                        <h1>Testez Mission RGPD grâce à notre<span> essai gratuit</span> </h1>
                         <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</h2>
                         <button class="white__button"> Essai gratuit </button>
                     </div>
@@ -443,6 +631,8 @@
             </div>
         </div>
     </article>
+<!--À partir d'ici, les elements sont des <articles> car ils ne sont pas dans l'objectif principal de la page, ce ne sont que des elements de presentation contrairement aux <sections>.-->
+<!--Témoignages-->
     <article class="testimony">
         <div class="testimony__wrapper">
             <div class="testimony__left__content">
@@ -497,8 +687,7 @@
                             <img src="ressources/images/formaSup.png" alt="img">
                         </figure>
                         <div>
-                            <h2> “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br>
-                                <p class="spacer"></p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”
+                            <h2> “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”
                             </h2>
                             <div>
                                 <h3>John Doe</h3>
@@ -527,6 +716,7 @@
             </div>
         </div>
     </article>
+<!--Foire aux questions-->
     <article class="FAQ">
         <div class="FAQ__wrapper">
             <div class="FAQ__TOP__CONT">
@@ -580,6 +770,7 @@
             </div>
         </div>
     </article>
+<!--Derniers articles-->
     <article class="latest__articles">
         <div class="lat__articles__wrapper">
             <div class="article__title">
@@ -640,6 +831,7 @@
             </div>
         </div>
     </article>
+<!--Notre équipe-->
     <article class="our__team">
         <div class="our__team__wrapper">
             <h1>Notre équipe <span>d’experts</span>
@@ -734,6 +926,7 @@
             </div>
         </div>
     </article>
+<!--Newsletter-->
     <article class="newsletter">
         <div class="newsletter__wrapper">
             <div class="nw__content">
@@ -763,6 +956,7 @@
         </div>
     </article>
 </main>
+<!--Footer-->
 <footer>
     <div class="footer__wrapper">
         <div class="footer__wrapper__content">
@@ -826,11 +1020,12 @@
         </div>
     </div>
 </footer>
+<!--Scripts JavaScripts-->
     <script src="ressources/js/header.js"></script>
     <script src="ressources/js/video.js"></script>
     <script src="ressources/js/loader.js"></script>
     <script src="ressources/js/dropdown.js"></script>
     <script src="ressources/js/modalOnClick.js"></script>
+    <script src="ressources/js/menuOpenDesktop.js"></script>
 </body>
-
 </html>
