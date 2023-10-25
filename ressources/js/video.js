@@ -13,7 +13,7 @@ function playPause() {
 
 document.addEventListener("DOMContentLoaded", function() {
     let video = document.getElementById("video_stock");
-    let playButton = document.querySelector(".play-button");
+    let playButton = document.querySelector(".play__button");
 
     video.addEventListener("click", function() {
         if (video.paused) {
